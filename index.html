@@ -1,91 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ajolotech Software Solutions is a digital consultancy company to help you grow your business the way you need it.">
-    <meta name="keywords" content="Software, Software development">
-    <meta name="author" content="Ajolotech Engineering">
-    <!-- Change below line once we have content to show -->
-    <meta name="robots" content="noindex, nofollow">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>Ajolotech</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Comfortaa', cursive;
-        }
-        @keyframes gradient {
-            0% { background-position: 0% 50% }
-            50% { background-position: 100% 50% }
-            100% { background-position: 0% 50% }
-        }
-        body {
-            margin: 0;
-            background: rgb(195,34,153);
-            background-image: linear-gradient(48deg, rgb(195,34,153), rgb(111,45,253), rgb(195,34,153));
-            background-size: 400% 400%;
-            display: flex;
-            align-items: center;
-            color: white;
-            animation: gradient 10s ease infinite;
-            width: 100vw;
-            height: 100vh;
-        }
-        .content {
-            font-size: xx-large;
-            width: 680px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-            color: rgb(248, 168, 231);
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: rgb(147, 120, 205)
-        }
-        footer {
-            position: fixed;
-            bottom: 0;
-            background-color: rgba(111,45,253,0.7);
-            width: 100%;
-            box-sizing: border-box;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 2em;
+<!DOCTYPE HTML>
+<html>
 
-        }
-    </style>
+<head>
+	<title>Ajolotech</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<!--
+Coming up next is oscar original head
+-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Ajolotech Software Solutions is a digital consultancy company to help you grow your business the way you need it.">
+	<meta name="keywords" content="Software, Software development">
+	<meta name="author" content="Ajolotech Engineering">
+	<!-- Change below line once we have content to show -->
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<title>Ajolotech</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<style>
+
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%
+			}
+
+			50% {
+				background-position: 100% 50%
+			}
+
+			100% {
+				background-position: 0% 50%
+			}
+		}
+
+		body {
+			margin: 0;
+			background: rgb(195, 34, 153);
+			background-image: linear-gradient(48deg, rgb(195, 34, 153), rgb(111, 45, 253), rgb(195, 34, 153));
+			background-size: 400% 400%;
+
+			color: white;
+			animation: gradient 10s ease infinite;
+			overflow: auto;
+		}
+
+		a {
+			text-decoration: none;
+			color: rgb(248, 168, 231);
+			transition: color 0.3s ease;
+		}
+
+		a:hover {
+			color: rgb(147, 120, 205)
+		}
+
+		footer {
+			position: fixed;
+			bottom: 0;
+			background-color: rgba(111, 45, 253, 0.7);
+			width: 100%;
+			box-sizing: border-box;
+			height: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 2em;
+
+		}
+	</style>
 </head>
-<body class="bg">
-    <header></header>
-    <section class="content">
-        <!-- <h1>Ajolotech</h1> -->
-        <h1>Coming soon</h1>
-        <p>
-            Want to get in touch? send us an email at <a href="mailto:hola@ajolote.ch">hola@ajolote.ch</a>
-        </p>
-    </section>
-    <footer>
-        <span>
-            2023 - Ajolotech
-        </span>
-        <!-- <div>
-            Follow us
-        </div> -->
-    </footer>
+
+<body class="is-preload">
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<section style="background-color: rgba(255,255,255,0.3); border-radius: 10px;">
+			<img src="./assets/x2.png" alt="ajolotech logo">
+		</section>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>Ajolotech</span></a>
+			<a href="#clientes" class="icon solid fa-folder"><span>Clientes</span></a>
+			<a href="#career" class="icon solid fa-industry"><span>Industrias</span></a>
+			<a href="#presencia" class="icon solid fa-map"><span>Presencia</span></a>
+			<a href="#contact" class="icon solid fa-envelope"><span>Contacto</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Ajolotech</h1>
+					<br />
+					<p>
+						Somos un grupo de profesionistas con talento y vasta experiencia en el campo de la consultoría
+						tecnológica y desarrollo
+						de software, guiados por pasión, mejora continua y mentalidad ágil.
+					</p>
+
+
+				</header>
+				<a href="#clientes" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>Clientes</span></span>
+					<img src="images/me.jpg" alt="" />
+				</a>
+			</article>
+
+			<!-- clientes -->
+			<article id="clientes" class="panel">
+				<header>
+					<h1>Clientes</h1>
+					<br />
+					<p>
+					<p>Contamos con una lista de colaboración con empresas de las siguientes ramas: <br>
+						• Sector Salud <br>
+						• Sector Financiero <br>
+						• Seguros Médicos <br>
+						• Desarrollos Inmobiliarios <br>
+						• Bienes Raices (Brokers) <br>
+						• Call Center <br>
+					</p>
+					</p>
+
+
+				</header>
+				<a href="#career" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>&nbsp; Industrias</span></span>
+
+				</a>
+
+			</article>
+
+			<!-- career -->
+			<article id="career" class="panel">
+				<header>
+					<h1>Careers</h1>
+					<br />
+					<p>
+					<p>Transforma tu futuro profesional de la mano de un equipo internacional<br />
+						Nuestras Áreas:<br>
+						• Recursos Humanos y Administración<br>
+						• Operaciones<br>
+						• Finanzas<br>
+						• Marketing<br>
+						• Tecnología<br>
+						• Desarrollo y Control de Calidad<br>
+						• Prácticas Profesionales</p>
+					</p>
+
+
+				</header>
+				<a href="#presencia" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>&nbsp; Presencia</span></span>
+
+				</a>
+
+			</article>
+
+			<!-- presencia -->
+			<article id="presencia" class="panel">
+				<header>
+					<h1>Presencia</h1>
+					<br />
+					<p>
+					<p>
+						• Monterrey<br>
+						• Mérida<br>
+						• Querétaro<br>
+						• Guadalajara<br>
+					</p>
+					</p>
+				</header>
+
+				<a href="#contact" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>&nbsp; Contacto</span></span>
+
+				</a>
+
+			</article>
+
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Contacto</h2>
+				</header>
+				<a href="mailto:hola@ajolote.ch?subject=Hola!">
+					<span>hola@ajolote.ch</span></a>
+
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; Ajolotech</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
